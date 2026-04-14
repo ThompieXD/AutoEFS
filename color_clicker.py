@@ -1,16 +1,3 @@
-"""
-Color Clicker — Detects #1ACE6A at two screen coordinates, clicks it
-reliably (retries until the color is confirmed gone), then resumes
-auto-clicking or hold-clicking at a home position.
-
-Modes:
-  Auto Clicker — clicks every N ms at the home coordinate
-  Hold Click   — holds mouse, re-holds every N seconds
-
-Requirements:  pip install pydirectinput pynput pyautogui
-Build:         pyinstaller --onefile --windowed --name ColorClicker color_clicker.py
-"""
-
 import ctypes
 import json
 import os
